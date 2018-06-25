@@ -1,0 +1,11 @@
+register umieszcza zmienną w "rejestrach maszyny" - używamy, gdy zmienna jest często używana. przyspiesza to działanie programu.
+Używamy do zmiennych automatycznych i do formalnych parametrów funkcji.
+
+register int x;
+register char c;
+
+f(register unsigned m, register long n)
+{
+register int i;
+...
+}

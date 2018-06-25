@@ -1,0 +1,13 @@
+Gdy zmienna jest static w pliku np.:
+static int a = 0;
+int f(){
+return 0;
+}
+to a jest widoczne wyłącznie w tym pliku.
+gdy zmienna jest static w funkcji, to jest widoczna tylko wewnątrz funkcji (tak jak normalnie), ale nie znika po zakończeniu działania funkcji, jak normalnie.
+np.:
+int f(){
+  static int a = 0;
+  return 0;
+}
+nie widzę teraz wykorzystania, ale takie jest rozróżnienie.
